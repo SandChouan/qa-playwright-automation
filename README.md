@@ -1,3 +1,5 @@
+![CI](https://github.com/SandChouan/qa-playwright-automation/actions/workflows/ci.yml/badge.svg)
+
 # QA Automation Project – Playwright + Pytest
 
 ## Overview
