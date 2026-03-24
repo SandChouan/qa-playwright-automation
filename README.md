@@ -1,18 +1,18 @@
 # QA Automation Project – Playwright + Pytest
 
-## 🚀 Overview
+## Overview
 This project demonstrates end-to-end test automation using Playwright with Python and Pytest.
 
-## 🧪 Test Coverage
+## Test Coverage
 - Login functionality
 - Add product to cart
 - Checkout process
 
-## 🧩 Architecture
+## Architecture
 - Page Object Model (POM)
 - Modular test structure
 
-## ⚙️ Tech Stack
+## Tech Stack
 - Python
 - Playwright
 - Pytest
