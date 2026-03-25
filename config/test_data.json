@@ -1,0 +1,9 @@
+{
+  "login": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "api": {
+    "base_url": "https://jsonplaceholder.typicode.com"
+  }
+}
