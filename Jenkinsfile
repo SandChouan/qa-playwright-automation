@@ -1,5 +1,10 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            image 'mcr.microsoft.com/playwright/python:v1.58.0-jammy'
+            args '-u root'
+        }
+    }
 
     stages {
         stage('Install Dependencies') {
