@@ -6,7 +6,7 @@ This project demonstrates a complete QA automation setup including UI testing, A
 
 The goal is to showcase a scalable and maintainable approach to modern test automation.
 
-  Test Coverage
+Test Coverage
 🔹 UI Tests (Playwright)
 Login functionality (valid & invalid scenarios)
 Inventory page validation
@@ -16,12 +16,12 @@ GET endpoints validation
 Single resource validation
 Response status and data validation
 
-  Architecture
+🧩 Architecture
 Page Object Model (POM)
 Modular structure
 Centralized test data management (JSON)
 
-  Tech Stack
+⚙️ Tech Stack
 Python
 Playwright
 Pytest
@@ -30,16 +30,16 @@ Docker
 GitHub Actions (CI/CD)
 Allure Reports
 
-  Run Tests Locally
+▶️ Run Tests Locally
 pytest
 Parallel Execution
 pytest -n auto
 
-  Run with Docker
+🐳 Run with Docker
 docker build -t qa-tests .
 docker run qa-tests
 
-  Test Reporting (Allure)
+📊 Test Reporting (Allure)
 pytest --alluredir=allure-results
 allure serve allure-results
 
@@ -47,11 +47,12 @@ allure serve allure-results
 Automated test execution on every push
 Integrated with GitHub Actions
 
-  Key Highlights
+💡 Key Highlights
 End-to-end automation (UI + API)
 Parallel test execution
 Containerized test environment
 Scalable and maintainable architecture
 
-  Author
+👩‍💻 Author
+
 Sandrine Michele
