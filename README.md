@@ -2,65 +2,56 @@
 
 QA Automation Project – Playwright, API Testing & CI/CD
 
-
-Overview
-
 This project demonstrates a complete QA automation setup including UI testing, API testing, CI/CD integration, Docker execution, and advanced reporting.
 
-Test Coverage
+The goal is to showcase a scalable and maintainable approach to modern test automation.
+
+  Test Coverage
 🔹 UI Tests (Playwright)
-Login functionality
-Inventory page
-Checkout process
+Login functionality (valid & invalid scenarios)
+Inventory page validation
+Checkout process (end-to-end flow)
 🔹 API Tests (Pytest + Requests)
 GET endpoints validation
 Single resource validation
+Response status and data validation
 
-
-Architecture
+  Architecture
 Page Object Model (POM)
 Modular structure
 Centralized test data management (JSON)
 
-
-⚙️ Tech Stack
+  Tech Stack
 Python
 Playwright
 Pytest
 Requests
 Docker
-GitHub Actions
+GitHub Actions (CI/CD)
 Allure Reports
 
-
-Run Tests Locally
+  Run Tests Locally
 pytest
-
-Run Tests in Parallel
+Parallel Execution
 pytest -n auto
 
-Run with Docker
+  Run with Docker
 docker build -t qa-tests .
 docker run qa-tests
 
-
-Test Reporting (Allure)
+  Test Reporting (Allure)
 pytest --alluredir=allure-results
 allure serve allure-results
 
-
 🔄 CI/CD Pipeline
 Automated test execution on every push
-GitHub Actions integration
+Integrated with GitHub Actions
 
-
-💡 Key Highlights
+  Key Highlights
 End-to-end automation (UI + API)
-Parallel execution
+Parallel test execution
 Containerized test environment
-Scalable and maintainable structure
+Scalable and maintainable architecture
 
-
-👩‍💻 Author
-
+  Author
 Sandrine Michele
